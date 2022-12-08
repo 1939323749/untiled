@@ -24,9 +24,6 @@ export default {
 
 <template>
   <h1 @click="reset">count: {{ count }}</h1>
-  <h2 v-if="count > 10">count is greater than 10</h2>
-  <h2 v-else-if="count > 5">count is greater than 5</h2>
-  <h2 v-else>count is less than 5</h2>
   <div id="button">
     <button @click="increment">Increment</button>
     <button @click="decrement">Decrement</button>
